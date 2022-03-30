@@ -28,7 +28,7 @@
 
 **Getting Started**
 
-[NBA Profile App](nbaprofileapp.netlify.app).
+[NBA Profile App](https://nbaprofileapp.netlify.app/).
 
 
 **Future Enhancements**
