@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
 
 h1{
-    font-family:'Bangers', cursive; ;
+    font-family:'Bangers', cursive; 
     text-align: center;
-    font-size: 80px;
+    font-size: 100px;
     animation-name:text;
     animation-duration:5s;
     animation-iteration-count: 100;
@@ -14,16 +14,24 @@ h1{
     from{color: #fdfdfd;}
     to{color:#004fb6}
     to{color:red}
-}
-h3{
-    text-align: center;
-    font-family: 'Bangers', cursive;;
+
+
 }
 
-h4{
-    text-align: center;
+h2{
+     text-align: center;
     font-family: 'Bangers', cursive;
+    }
+
+h4{
+    position: relative; 
+    text-align: center;
+    font-family: 'Bangers', cursive;;
+    left: 100px;
+    top:80px;
+    
 }
+
 body > img{
     width: 720px;
     height: 300px;
@@ -39,13 +47,14 @@ body {
 
 input{
     position: relative;
-    left: 260px;
+    left: 450px;
+    font-family: 'Bangers', cursive;
 }
 button{
     font-family: 'Bangers', cursive;;
     position: relative;
-    left:202px;
-    top:1px;
+    left:460px;
+    bottom:-1px;
     background-color: #000000;
     border: none;
     color: white;
@@ -59,19 +68,24 @@ button{
 
 
 @keyframes gradient {
-	0% {
-		background-position: 10% 50%;
-	}
-	50% {
-		background-position: 100% 80%;
-	}
-	100% {
-		background-position: 10% 50%;
-	}
+	0%{background-position:0% 50%}
+  50%{background-position:100% 50%}
+  100%{background-position:0% 50%}
 }
-div >img{
-    width:200px;
+body >img{
+    width:100px;
     align-content: center;
     display: block;
     margin:100px;
+}
+div.absolute{
+    top: 80px;
+}
+aside{
+    font-family:'Bangers', cursive;
+    font-size: 16px;
+    position: fixed;
+    text-align: center;
+    left: 680px;
+    bottom:100px;
 }
